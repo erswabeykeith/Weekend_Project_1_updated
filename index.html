@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>jQuery Forms</title>
+      <script type="text/javascript" src="jquery-3.1.1.js"></script>
+      <script type="text/javascript" src="forms.js"></script>
+      <link rel="stylesheet" href="form-style.css" />
+  </head>
+  <body>
+    <h1>jQuery Forms</h1>
+    <div>
+      <form id="employeeinfo">
+        <label for="employeefirstname">First Name:</label>
+        <input type="text" id="employeefirstname" name="employeefirstname" />
+
+        <label for="employeelastname">Last Name:</label>
+        <input type="text" id="employeelastname" name="employeelastname" />
+
+        <label for="employeeID">ID Number:</label>
+        <input type="text" id="employeeID" name="employeeID" />
+
+        <label for="employeeJobTitle">Job Title:</label>
+        <input type="text" id="employeeJobTitle" name="employeeJobTitle" />
+
+        <label for="employeeYearlySalary">Annual Salary:</label>
+        <input type="text" id="employeeYearlySalary" name="employeeYearlySalary" />
+
+        <input type="submit" value="Submit Employee" />
+      </form>
+    </div>
+    <div id="container">
+      <h2>Employee List</h2>
+      <table id="tableInfo" style="width 100%">
+        <tr id="table">
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Annual Salary</th>
+    </tr>
+  </table>
+  <p id="totalSalaries">Total Monthly Salary Cost:</p>
+  <p id="monthlySalary"></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+h1 {
+  color: teal;
+}
+
+#container {
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 30px;
+}
+
+.person {
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.clicked {
+  border-color: red;
+}
+
+input, label{
+  display: table-row;
+}
+h3, #container p {
+  display: inline-block;
+  width: 200px;
+}
+h3 {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  clear; both;
+}
+#tableInfo {
+  width: 100%;
+}
+
+#table {
+  text-align: left;
+  text-decoration: underline;
+}
+
+#monthlySalary, #totalSalaries {
+  font-weight: bold;
+}
