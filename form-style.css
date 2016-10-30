@@ -1,11 +1,16 @@
 h1 {
-  color: teal;
+  color: magenta;
 }
 
+body{
+  background-color: teal;
+  color: purple;
+}
 #container {
   border: 1px solid blue;
   padding: 10px;
   margin: 30px;
+
 }
 
 .person {
@@ -43,4 +48,5 @@ h3 {
 
 #monthlySalary, #totalSalaries {
   font-weight: bold;
+  color: pink;
 }
